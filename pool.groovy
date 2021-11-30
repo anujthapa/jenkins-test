@@ -4,7 +4,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                println("dry_Run"+env.dryRun)
+                println("dry_Run"+env.name)
             }
         }
     }
